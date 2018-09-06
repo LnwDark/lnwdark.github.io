@@ -46,9 +46,11 @@ let app = new Vue({
                     }
                 })
                 .then(function (response) {
+                    alert(response)
                     console.log(response);
                 })
                 .catch(function (error) {
+                    alert(error)
                     console.log(error);
                 });
         }
