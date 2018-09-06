@@ -12,20 +12,16 @@ let app = new Vue({
             console.log('ok')
             liff.init(function (data) {
                 vm.initializeApp(data);
-               
             });
 
         };
         
     },
     methods: {
-        sendMeg(){
-            
-        },
         initializeApp(data) {
-            this.name.push(data)
+            let vm = this;
+            vm.name.push(data)
             console.log(data)
-            vm.getProfiles()
         },
         getProfiles() {
             let vm = this;
