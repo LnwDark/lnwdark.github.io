@@ -1,36 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>lnwdark</title>
-  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>ลงทะเบียน</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-  <style>
-    body {
-      font-family: 'Athiti', sans-serif;
-    }
-  </style>
-
-  <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-    <h3 class="uk-card-title"></h3>
-    <ul class="uk-list uk-list-bullet">
-      <li>เรื่องที่ 1</li>
-      <li>เรื่องที่ 2</li>
-      <li>เรื่องที่ 3</li>
-    </ul>
-    <p>Lorem ipsum
-      <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div id="app">
+    <div class="container">
+      <button type="button" name="" class="btn btn-success btn-sm" @click="getProfiles">get Pro</button>
+      <img :src="profile.pictureUrl" class="text-center img-fluid thumbnail" alt="" width='200px'>
+      <table class="table table-striped table-responsive">
+        <tbody>
+          <tr>
+            <th scope="row">userId</td>
+            <td>{{profile.userId}}</td>
+          </tr>
+          <tr>
+            <th scope="row">displayName</td>
+            <td>{{profile.displayName}}</td>
+          </tr>
+          <tr>
+            <th scope="row">statusMessage</td>
+            <td>{{profile.statusMessage}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="col-md-4 offset-md-4">
+        <h2></h2>
+    
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Help text</small>
+          <label for=""></label>
+          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Help text</small>
+          <button type="button" name="" id="" class="btn btn-primary  btn-lg btn-block" ng-click="Close()">ลงทะเบียน</button>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
+  <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
