@@ -40,9 +40,9 @@ let app = new Vue({
             let channelAccessToken = 'Bx004QWDFqOEh8K8RKfZlW5LVZNwdYvCGJK2AWNwhwjhKWvv8hmgBrOuiB/sXJNj1WQkn+0kwIxnEr0L8D8zseB70do4R/Pjs/UuxApg4lm728mSokfwgt1oncvUTcpwIML8wYGKv9j8SwylAixN9gdB04t89/1O/w1cDnyilFU='
 
             const url = `https://api.line.me/v2/bot/user/${userId}/richmenu/${richMenuId}`
-            axios.post(`https://api.line.me/v2/bot/user/${userId}/richmenu/${richMenuId}`, {
+            axios.get('https://api.line.me/v2/bot/richmenu/list', {
                     headers: {
-                        Authorization: `Bearer {Bx004QWDFqOEh8K8RKfZlW5LVZNwdYvCGJK2AWNwhwjhKWvv8hmgBrOuiB/sXJNj1WQkn+0kwIxnEr0L8D8zseB70do4R/Pjs/UuxApg4lm728mSokfwgt1oncvUTcpwIML8wYGKv9j8SwylAixN9gdB04t89/1O/w1cDnyilFU=}`,
+                        Authorization: 'Bearer{Bx004QWDFqOEh8K8RKfZlW5LVZNwdYvCGJK2AWNwhwjhKWvv8hmgBrOuiB/sXJNj1WQkn+0kwIxnEr0L8D8zseB70do4R/Pjs/UuxApg4lm728mSokfwgt1oncvUTcpwIML8wYGKv9j8SwylAixN9gdB04t89/1O/w1cDnyilFU=}',
                     }
                 })
                 .then(function (response) {
