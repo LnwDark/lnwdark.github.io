@@ -1,0 +1,61 @@
+Name : surichai poprakon
+Residential Address : 24 moo.2  BuengCharoen BanKruat, Buriram 31180
+Mobile : 0884694806
+Email  : 04061surichai@gmail.com
+Marital Status : single
+Date of Birth : 25 February 1993
+
+
+Skill
+Programming Languages 
+- Javascript, ES6
+- Html5 
+- Css 
+- SQL
+- PHP 
+Framework & library
+- Angular 1 (medium)
+- VueJs 2  (medium)
+- Yii 2 Framework
+- Bootstrap 
+- JQuery
+Tool 
+- Mysql
+- PostgreSQL
+- Firebase
+- Git 
+
+============================================
+Work experience
+October 2014	
+RajabhatBuriram University.
+Position Trainee (Java Language)
+
+March 2015
+RajabhatBuriram University.
+Position Trainee (RaspBerryPi)
+
+May - July 2015
+Webpak group Co., Ltd .
+Position. Apprentric (Programmer)
+
+June 2016 - 2018
+Nextgensoft Co., Ltd .
+Full stack Developer
+Position  Programmer 
+- Developed web applications with PHP Yii Framework ,Ajax and JavaScript,JQuery
+- Developed   System Auto Print (receipt) with Node JS ,Firebase ,Cups ,Python and Raspberry pi 3
+- IT support / Help Desk and networking.
+
+============================================
+Educations
+
+Senior High School 
+Rajaprajanugroh 51 School , Buriram
+GPA(2.54)
+
+Bachelor Degree of Computer Science
+RajabhatBurirum University, Buriram, Thailand
+GPA(2.35)
+
+
